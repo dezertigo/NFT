@@ -137,9 +137,10 @@
 				margin-right: 15px;
 			}
 			&__img-box {
+				width: 440px;
 				img {
 					object-fit: cover;
-					height: 342px;
+					height: 386px;
 				}
 			}
 		}
@@ -223,6 +224,7 @@
 	.nft-card {
 		max-width:340px;
 		&__img-box {
+			width: 100%;
 			img {
 				object-fit: cover;
 				height: 270px;
@@ -243,7 +245,7 @@
 		}
 		&__desc {
 			font-size: 9px;
-			line-height: 14px;
+			line-height: 1;
 		}
 		&__price {
 			font-size: 9px;
